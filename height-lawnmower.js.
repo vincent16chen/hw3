@@ -13,7 +13,7 @@ function draw() {
 
   x = x + 10;
 
-  // keep gorwing
+  // keep growing
   if (x > width) {
     x = random(10);
     h = h + 3
@@ -23,7 +23,7 @@ function draw() {
   if (h > height-50) {
     //white
     fill(255);
-    //white rectangle to cover thee grass
+    //white rectangle to cover the grass
     rect(0, 0, width, height-15);
     h = 10;
   }
@@ -32,4 +32,3 @@ function draw() {
   fill(40, 100, 60);
   rect(0, height-10, width, 10);
 }
-
